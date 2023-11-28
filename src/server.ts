@@ -1,7 +1,7 @@
 import "module-alias/register";
 import { Server } from "@overnightjs/core";
 import { Application, json } from "express";
-import { CharacterController } from "./controllers/characters";
+import { CharacterController } from "@src/controllers/characters";
 
 export class SetupServer extends Server {
     constructor(private port = 3000) {
